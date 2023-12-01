@@ -41,3 +41,21 @@ p {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+th{
+  background-color: whitesmoke;
+}
+
+tr {
+  border-bottom: 2px solid #302f2f;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+td{
+  width: 150px;
+  text-align: center;
+  border: 1px dotted black;
+}

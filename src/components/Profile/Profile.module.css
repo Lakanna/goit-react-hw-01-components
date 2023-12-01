@@ -1,11 +1,13 @@
 .profile{
-    height: 250px;
+    height: 216px;
     width: 200px;
     padding-top: 20px;
-    
+    vertical-align: bottom;
+    overflow: hidden;
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
     box-shadow: ;
+    border: 1px solid gray;
 
 }
 
@@ -35,9 +37,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
     width: calc(100%/3);
     height: 50px;
+    border: 1px solid rgb(107, 107, 107);
 }
 .name{
     font-size: 25px;
+}
+
+.label{
+    font-size: 12px;
+    color: rgb(248, 249, 250);
 }
