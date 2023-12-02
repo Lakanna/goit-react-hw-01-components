@@ -21,7 +21,7 @@ export const UserProfile = ({
       <ul className={css.stats}>
         <li className={css.statsItem}>
           <span className={css.label}>Followers</span>
-          <span class="quantity">{followers}</span>
+          <span className="quantity">{followers}</span>
         </li>
         <li className={css.statsItem}>
           <span className={css.label}>Views</span>
